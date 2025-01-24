@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: Roboto;
+}
+.nav-container{
+   width: 1376px;
+   margin: 0 auto
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+
+}
+#logo{
+    width: 70px;
+    height: 75px;
+}
+.nav-right{
+display: flex;
+justify-content: space-between;
+width: 30%;
+}
+#nav-li{
+    margin-top: 15px;
+}
+.header-container{
+    width: 1376px;
+    margin: 0 auto;
+    height: 1107px;
+    margin-top: 40px;
+}
+
+a{
+color: black;
+font-family: Roboto;
+
+}
+#h2{
+    font-family: Helvetica ;
+    font-size: 48px;
+    font-weight: 400;
+}
+.main-container{
+    width: 1376px;
+    margin: 0 auto;
+}
+#p-desc{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.main-1{
+    display: flex;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 20px;
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+#numbers-span{
+    font-family: Helvetica ;
+    font-size: 36px;
+}
+.main-1-right{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.main-1-left{
+    margin-right: 230px;
+}
+.main-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+gap: 25px;
+margin-top: 30px;
+}
+#h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 130px;
+}
+.box{
+width: 445px;
+height: 327px;
+border: solid black 1px;
+margin-top: 40px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items:center;
+gap: 25px;
+text-align: center;
+}
+.main-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+gap: 25px;
+
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+}
+.button{
+    font-size: 16px;
+    color:white;
+    background-color: black;
+    width: 176px;
+    height: 46px;
+    list-style: none;
+    border: none;
+    font-style: Roboto;
+}
+.main-5{
+    display: flex;
+    height: 560px;
+    margin-top: 150px;
+
+}
+.main-5-right{
+    display: flex;
+    flex-direction: column ;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap: 40px;
+
+}
+.h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.formImg{
+    margin-right: 230px;
+}
+#input{
+    width: 562px;
+    height:31px;
+    list-style: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+.button{
+    margin-top: 12px;
+}
+.apps{
+    display: flex;
+    gap: 8px;
+}
+.footer{
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-style: Roboto;
+    font-size: 18px;
+    margin-top: 160px;
+    margin-bottom: 12px;
+}
+.footer-right{
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+.footer-left{
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+.work-boxH{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.work-box{
+    width: 678px;
+    height:146px;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: left;
+    margin-top: 40px;
+}
+.main-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+
+#h3-main2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.p-box{
+    width: 330px;
+    height: 110px;
+    text-align: left;
+}
+
+
+#h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.header-left{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.main-container{
+    margin-top: 150px;
+}
+.header{
+    margin-top: 40px;
+}
